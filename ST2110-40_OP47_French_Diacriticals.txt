@@ -1,0 +1,10 @@
+A Teletext subtitle decoder receiving the packets contained within
+"ST2110-40_OP47_French_Diacriticals.pcap" should present the following on a
+display:
+
+  French diacritical marks:
+  ç é âêîôû àèìòù ëïü
+
+Note that all of these characters except ì, ò, and ü are contained within
+the French National Option Sub-set table. Those remaining 3 characters
+require an X/26 packet for composition.
